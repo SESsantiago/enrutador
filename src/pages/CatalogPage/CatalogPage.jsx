@@ -1,11 +1,9 @@
 import './CatalogPage.css';
-import Navbar from '../../components/layout/Navbar/Navbar';
 import Footer from '../../components/layout/Footer/Footer';
 
 const CatalogPage = () => {
   return (
     <div className="page-wrapper">
-      <Navbar />
       
       <main className="page-content catalog-page">
         <div className="container">
