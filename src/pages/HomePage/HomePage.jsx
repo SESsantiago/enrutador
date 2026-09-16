@@ -1,12 +1,9 @@
 import './HomePage.css';
-import Navbar from '../../components/layout/Navbar/Navbar';
 import Footer from '../../components/layout/Footer/Footer';
 
 const HomePage = () => {
   return (
-    <div className="page-wrapper">
-      <Navbar />
-      
+    <div className="page-wrapper">      
       <main className="page-content">
         {/* Hero Section */}
         <section className="hero">
